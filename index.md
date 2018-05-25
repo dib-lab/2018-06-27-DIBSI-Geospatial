@@ -46,11 +46,11 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the website for the Geospatial workshop to be run at DIBSI 2018. We will be updating the content below as the date of the workshop approaches. In the mean time:
+<h4>This is the website for the Geospatial workshop to be run at DIBSI 2018. We will be updating the content below as the date of the workshop approaches. In the mean time:</h4>
   
-<pCurriculum for this workshop may be viewed here: <a href="{http://www.datacarpentry.org/lessons/#geospatial-curriculum}">http://www.datacarpentry.org/lessons/#geospatial-curriculum</a></p>
+<h4>Curriculum for this workshop may be viewed here: <a href="{http://www.datacarpentry.org/lessons/#geospatial-curriculum}">http://www.datacarpentry.org/lessons/#geospatial-curriculum</a></h4>
   
-Registration for this workshop may be found here: <a href="{https://registration.genomecenter.ucdavis.edu/events/DIBSI_2018_Geospatial_Workshop}">https://registration.genomecenter.ucdavis.edu/events/DIBSI_2018_Geospatial_Workshop</a></h4>
+<h4>Registration for this workshop may be found here: <a href="{https://registration.genomecenter.ucdavis.edu/events/DIBSI_2018_Geospatial_Workshop}">https://registration.genomecenter.ucdavis.edu/events/DIBSI_2018_Geospatial_Workshop</a></h4>
 
 <h2 id="general">General Information</h2>
 
