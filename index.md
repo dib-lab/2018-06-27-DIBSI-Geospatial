@@ -213,6 +213,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+{% comment %}
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
@@ -221,6 +222,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+ 
+{% endcomment %}
 
 {% comment %}
   Collaborative Notes
@@ -257,8 +260,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
 
+<h2 id="syllabus">Syllabus</h2>
+{% comment %}
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
@@ -268,7 +272,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 {% endif %}
 
 <hr/>
-
+{% endcomment %}
 {% comment %}
   SETUP
 
@@ -293,7 +297,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
+  you will need access to some of the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
 <p>
