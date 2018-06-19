@@ -10,8 +10,8 @@ humandate: "June 27-28, 2018"    # human-readable dates for the workshop (e.g., 
 humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-06-27      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-06-28        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Michele Tobias", "Michael Culshaw", "Stewart Wilson", "and others"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: [""]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Michele Tobias", "Michael Culshaw", "Stewart Wilson"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Cameron Denney", "Kevi Mace", "Elise Hellwig"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["dibsi.training@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -213,8 +213,20 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+The schedule is still under development and will be adjusted once we have the results of your pre-workshop surveys.
 
-The schedule for this workshop is under development.  Please check back later for more details.
+| Day | Time | Activity |
+|---|---|---|
+| 1 | 9:00-10:45 | Geospatial Project Organization & Management |
+|   | 10:45-11:00 | Break |
+|   | 11:00-12:10 | Introduction to R for Geospatial Data |
+|   | 12:10-1:10 | Lunch |
+|   | 1:10-4:00 | More! Introduction to R for Geospatial Data |
+| 2 | 9:00-4:00 | R for Raster & Vector Data |
+|   | ~10:45 | Break |
+|   | ~12:00 | Lunch |
+
+
 
 {% comment %}
 
@@ -266,11 +278,14 @@ The schedule for this workshop is under development.  Please check back later fo
 
 <h2 id="syllabus">Syllabus</h2>
 
-Our (tentative) plan is to work through the following [Geospatial Data Workshop](http://www.datacarpentry.org/lessons/#geospatial-curriculum) lessons:
+Our (tentative) plan is to work through the following Geospatial Data Workshop lessons:
 
-* Introduction to R for Geospatial Data
-* R for Raster & Vector Data
-* Geospatial Project Organization & Management
+* [Geospatial Project Organization & Management](http://MicheleTobias.github.io/organization-geospatial)
+* [Introduction to R for Geospatial Data](http://MicheleTobias.github.io/r-intro-geospatial)
+* [R for Raster & Vector Data](http://MicheleTobias.github.io/r-raster-vector-geospatial)
+
+*Please note that we will be working from a fork of the Carpentries' Geospatial Curriculum.  The curriculum on the main repository is under heavy development until the end of July 2018.  To prevent confusion with updates happening while we're teaching, we'll be working off of the forked repository linked on this page.*
+
 
 {% comment %}
 {% if page.carpentry == "swc" %}
