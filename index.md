@@ -280,9 +280,12 @@ The schedule is still under development and will be adjusted once we have the re
 
 Our (tentative) plan is to work through the following [Geospatial Data Workshop](http://www.datacarpentry.org/lessons/#geospatial-curriculum) lessons:
 
-* Introduction to R for Geospatial Data
-* R for Raster & Vector Data
-* Geospatial Project Organization & Management
+* [Geospatial Project Organization & Management](http://MicheleTobias.github.io/organization-geospatial)
+* [Introduction to R for Geospatial Data](http://MicheleTobias.github.io/r-intro-geospatial)
+* [R for Raster & Vector Data](http://MicheleTobias.github.io/r-raster-vector-geospatial)
+
+*Please note that we will be working from a fork of the Carpentries' Geospatial Curriculum.  The curriculum on the main repository is under heavy development until the end of July 2018.  To prevent confusion with updates happening while we're teaching, we'll be working off of the forked repository linked on this page.*
+
 
 {% comment %}
 {% if page.carpentry == "swc" %}
