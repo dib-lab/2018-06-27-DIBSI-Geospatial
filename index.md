@@ -213,8 +213,20 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+The schedule is still under development and will be adjusted once we have the results of your pre-workshop surveys.
 
-The schedule for this workshop is under development.  Please check back later for more details.
+| Day | Time | Activity |
+|---|---|---|
+| 1 | 9:00-10:45 | Geospatial Project Organization & Management |
+|   | 10:45-11:00 | Break |
+|   | 11:00-12:10 | Introduction to R for Geospatial Data |
+|   | 12:10-1:10 | Lunch |
+|   | 1:10-4:00 | More! Introduction to R for Geospatial Data |
+| 2 | 9:00-4:00 | R for Raster & Vector Data |
+|   | ~10:45 | Break |
+|   | ~12:00 | Lunch |
+
+
 
 {% comment %}
 
