@@ -278,7 +278,7 @@ The schedule is still under development and will be adjusted once we have the re
 
 <h2 id="syllabus">Syllabus</h2>
 
-Our (tentative) plan is to work through the following [Geospatial Data Workshop](http://www.datacarpentry.org/lessons/#geospatial-curriculum) lessons:
+Our (tentative) plan is to work through the following Geospatial Data Workshop lessons:
 
 * [Geospatial Project Organization & Management](http://MicheleTobias.github.io/organization-geospatial)
 * [Introduction to R for Geospatial Data](http://MicheleTobias.github.io/r-intro-geospatial)
